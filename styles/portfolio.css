@@ -51,9 +51,9 @@ header{
     background: url(../images/developer.png) , url(../images/header_bg.png) , #FFF8F3;
     background-repeat: no-repeat  ;
     background-size: auto;
-
     padding-top: 50px;
-    background-position:top left, bottom right  ;
+    background-position:10px 15px , bottom right  ;
+    height: 780px;
 }
 
 nav{
@@ -108,8 +108,10 @@ nav .menu a {
     margin-bottom: 30px;
 }
 #banner .banner-image img{
-   max-width: 585px;
-   vertical-align: middle;
+   max-width: 600px;
+   height: 623px;
+   vertical-align: text-bottom;
+
 }
 
 #about {
@@ -172,6 +174,10 @@ nav .menu a {
     line-height: 30px;
     margin-bottom: 30px;
 }
+.text-center{
+    text-align: center;
+    /* margin-top: 40px; */
+}
   
 
 #resume{
@@ -183,7 +189,7 @@ nav .menu a {
     max-width: 1240px;
     margin: 113px auto 0px;
     display: flex;
-    gap: 55px;
+    gap: 70px;
 }
 .resume-container hr{
     margin: 30px 0px;
@@ -215,3 +221,59 @@ nav .menu a {
     margin-bottom: 10px;
     color: #474747ca;
 }
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding-bottom: 130px;
+}
+
+footer .footer-container{
+    width: 72%;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    gap: 115px;
+    padding-top: 70px;
+}
+.footer-container .social{
+    max-width: 570px;
+}
+.footer-container h2{
+    font-size: 24px;
+    /* font-weight: bold; */
+    color: #181818;
+    margin-bottom: 18px;
+    /* padding-top: 20px; */
+}
+.footer-container p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-container .icons a {
+    margin-right: 28px;
+
+}
+
+.footer-container form input[type="text"] 
+ {
+     width: 480px;
+    padding: 19px 34px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 7px;
+    color: #757575;
+}
+.footer-container form textarea {
+     width: 480px;
+    padding: 19px 34px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 7px;
+    color: #757575;
+
+}
+
+
