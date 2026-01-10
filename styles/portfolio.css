@@ -29,20 +29,35 @@
    cursor: pointer;
 
 }
-
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 /* main style */
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
-    background: url(../images/developer.png), url(../images/header_bg.png) , #FFF8F3;
-    background-repeat: no-repeat ;
+    background: url(../images/developer.png) , url(../images/header_bg.png) , #FFF8F3;
+    background-repeat: no-repeat  ;
+    background-size: auto;
+
     padding-top: 50px;
     background-position:top left, bottom right  ;
 }
 
 nav{
     width: 72%;
-    max-width: 1140px;
+    max-width: 1240px;
     /* border: 1px solid red; */
     margin: 0px auto;
     display: flex;
@@ -66,6 +81,7 @@ nav .menu a {
     display: flex;
     justify-content: space-between;
     align-items:center ;
+    
 }
 #banner .banner-content {
     max-width: 585px;
@@ -93,4 +109,31 @@ nav .menu a {
 #banner .banner-image img{
    max-width: 585px;
    vertical-align: middle;
+}
+
+#about {
+    padding-top: 130px;
+    margin: 0 auto;
+}
+#about .about-container{
+    width: 72%;
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+    font-size: 20px;
+    
+    line-height: 30px;
+    color: #757575;
+
+}
+.about-info .info-card h4{
+    font-size: 20px;
 }
